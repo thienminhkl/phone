@@ -118,6 +118,7 @@ const findItemById = (cart, id) => {
   return item;
 };
 
+
 window.onload = async () => {
   const phoneList = await service.getPhones();
   renderList(phoneList);
